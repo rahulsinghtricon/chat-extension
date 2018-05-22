@@ -1,0 +1,30 @@
+    "content_scripts":[
+        {
+        "matches":["https://angular.io/"],
+        "js":["manipulate-dom.js"],
+        "html":["index.html"]
+    }
+]
+    "web_accessible_resources": ["index.html"]
+
+
+
+{
+
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 100;
+    min-height: 400px;
+    background-color: #DFDFDF;
+}
+position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 100;
+    min-height: 400px;
+    background-color: #DFDFDF;
+    /* width: auto; */
+    scroll-behavior: smooth;
+    min-width: 400px;
+    /* overflow: hidden; */

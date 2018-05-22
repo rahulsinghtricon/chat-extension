@@ -1,0 +1,13 @@
+
+iframe{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 100;
+    min-height: 400px;
+    background-color: #DFDFDF;
+    /* width: auto; */
+    scroll-behavior: smooth;
+    width: 320px;
+    display: block !important;
+}
